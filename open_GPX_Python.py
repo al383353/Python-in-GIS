@@ -1,8 +1,8 @@
-#I have to write a function
+# The folder directory is C://xxx/yyy/Baumberge.gpx'
 import os
 
 def checkOpen():
-    path = os.path.join('C:\\', 'Munster', 'Python', 'Baumberge.gpx')
+    path = os.path.join('C:\\', 'xxx', 'yyy', 'Baumberge.gpx')
     isExist = os.path.exists(path)
     if(isExist):
         #print("the file is there")
